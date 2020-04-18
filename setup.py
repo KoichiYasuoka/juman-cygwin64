@@ -8,7 +8,7 @@ else:
 
 setuptools.setup(
   name="juman-cygwin64",
-  version="0.2.0",
+  version="0.6.0",
   packages=setuptools.find_packages(),
   data_files=[
     ("local/bin",glob.glob("bin/*")),
